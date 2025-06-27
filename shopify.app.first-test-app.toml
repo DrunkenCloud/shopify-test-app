@@ -1,0 +1,23 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "c9f11c044d19b78fcec923b4cb074971"
+name = "first-test-app"
+handle = "first-test-app-172"
+application_url = "https://bedding-west-demonstration-identical.trycloudflare.com"
+embedded = true
+
+[build]
+include_config_on_deploy = true
+
+[webhooks]
+api_version = "2025-04"
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "write_products"
+
+[auth]
+redirect_urls = ["https://bedding-west-demonstration-identical.trycloudflare.com/auth/callback", "https://bedding-west-demonstration-identical.trycloudflare.com/auth/shopify/callback", "https://bedding-west-demonstration-identical.trycloudflare.com/api/auth/callback"]
+
+[pos]
+embedded = false
