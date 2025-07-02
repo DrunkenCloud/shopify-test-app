@@ -3,7 +3,7 @@
 client_id = "c9f11c044d19b78fcec923b4cb074971"
 name = "first-test-app"
 handle = "first-test-app-172"
-application_url = "https://chips-grace-child-lm.trycloudflare.com"
+application_url = "https://startup-auto-excluding-father.trycloudflare.com"
 embedded = true
 
 [build]
@@ -18,7 +18,7 @@ api_version = "2025-04"
 scopes = "write_products"
 
 [auth]
-redirect_urls = ["https://chips-grace-child-lm.trycloudflare.com/auth/callback", "https://chips-grace-child-lm.trycloudflare.com/auth/shopify/callback", "https://chips-grace-child-lm.trycloudflare.com/api/auth/callback"]
+redirect_urls = ["https://startup-auto-excluding-father.trycloudflare.com/auth/callback", "https://startup-auto-excluding-father.trycloudflare.com/auth/shopify/callback", "https://startup-auto-excluding-father.trycloudflare.com/api/auth/callback"]
 
 [pos]
 embedded = false
